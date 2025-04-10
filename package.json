@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev:frontend": "vite",
+    "build": "vite build",
     "dev:backend": "node server/index.js",
     "dev": "concurrently \"npm:dev:frontend\" \"npm:dev:backend\""
   },
