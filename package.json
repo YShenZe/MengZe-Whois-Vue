@@ -1,0 +1,26 @@
+{
+  "name": "whois-tool",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev:frontend": "vite",
+    "dev:backend": "node server/index.js",
+    "dev": "concurrently \"npm:dev:frontend\" \"npm:dev:backend\""
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "axios": "^1.8.4",
+    "cors": "^2.8.5",
+    "element-plus": "^2.9.7",
+    "express": "^5.1.0",
+    "html2canvas": "^1.4.1",
+    "vue": "^3.5.13",
+    "whois": "^2.14.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "concurrently": "^9.1.2",
+    "unplugin-element-plus": "^0.9.1",
+    "vite": "^6.2.0"
+  }
+}
